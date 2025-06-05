@@ -1,0 +1,247 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                           % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multibib}
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+%\renewcommand{\bibliographyitemlabel}{\arabic{enumiv}}% CONSIDER MERGING WITH PREAMBLE PART
+% personal data
+\name{Felipe}{Espreafico Guelerman Ramos\texorpdfstring{\\}{}}
+
+\title{Curriculum Vitae |}
+% optional, remove / comment the line if not wanted
+\address{4 place Jussieu}{ 75005 Paris}{France}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+1~(234)~567~890}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{espreafico-guelerman@imj-prg.fr}                  % optional, remove / comment the line if not wanted
+\homepage{https://webusers.imj-prg.fr/~felipe.ramos/}
+%\homepage{web.mathi.uni-heidelberg.de/physmath/espreafico}
+% optional, remove / comment the line if not wanted
+%\extrainfo{PhD Candidate at IMPA}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Presentation and Research Interests}
+    \begin{itemize}
+        \item I am currently a postdoctoral fellow at the Institut de Mathématiques de Jussieu of the Sorbonne University in Paris, under the supervision of Professor Penka Geoergieva.
+        
+        \smallskip
+    
+    \item    Research Interests: Enumerative aspects of Algebraic Geometry, Number Theory and their relations with Physics.
+    
+\smallskip
+
+    \item I have two main research directions. First, I've been working on understanding modularity properties of Gromov--Witten invariants and on more general problems concerning modular forms. Second, I've been working with $\mathbb A^1$-enumerative geometry, which concerns solving enumerative problems over any field. I'm interested in understanding how Physical invariants can be realized in this context, but also in more general enumerative problems.
+    
+\smallskip
+
+    \item My other interests include Singularity Theory, Hodge Theory and Symplectic Geometry.
+        
+    \end{itemize}
+    
+ 
+    
+    
+    
+     
+\section{Employment}
+\cventry{2024--}{Funded by the European Research Council}{Postdoctoral Fellow}{Sorbonne University, Paris}{}{Supervision: Penka Georgieva}{}
+\section{Education}
+\cventry{2020--2024}{Institute of Pure and Applied Mathematics}{PhD in Mathematics}{Rio de Janeiro}{with a year (2022--2023) spent at University of Heidelberg}{Supervisors: Hossein Movasati and Johannes Walcher}
+\cventry{2016--2019}{University of São Paulo}{BSc in Mathematics}{São Carlos}{\textit{Final Grade 9.6/10}}{with a semester (2018-2019) spent at Leibniz University Hannover} % arguments 3 to 6 can be left empty
+\cventry{2013--2015}{Foundation Armando Álvares Penteado}{High School Degree}{Ribeirão Preto}{}{}
+
+%\section{Non-Scientific Experience}
+%%\subsection{Vocational}
+%\cventry{2017--2019}{High School teaching}{University of São Paulo}{São Carlos}{}{Voluntary teacher at a preparatory course for High School Students}
+
+\section{Research Experience and Grants Awarded}
+
+\subsection{Graduate Level}
+
+\cventry{2022--2023}{CAPES PhD Internship Abroad Grant}{Refinements of Enumerative Invariants in Physics}{University of Heidelberg}{Heidelberg}{This grant complemented my PhD fellowship.}
+
+
+\cventry{2020--2024}{CNPq PhD Fellowship}{Open Gromov-Witten invariants and moduli of enhanced Clalabi-Yau threefolds}{IMPA}{Rio de Janeiro}{This grant was a 4-year PhD fellowship.}
+
+
+
+\subsection{Undergraduate Level}
+
+
+\cventry{2019--2019}{FAPESP Undergraduate Research Grant}{Intersection Homology and Applications to Singularity Theory}{University of São Paulo}{São Carlos}{Advised by Prof Nivaldo Grulha.}{}
+
+\cventry{2018--2019}{FAPESP Research Internship Abroad Grant}{Tjurina Transform and Determinantal Singularities.}{Leibniz Universität Hannover}{Hannover}{Advised by Prof Anne Frühbis-Krüger.}{}
+
+\cventry{2017--2018}{FAPESP Undergraduate Research Grant}{Introduction to Analytic Geometry}{University of São Paulo}{São Carlos}{Advised by Prof Nivaldo Grulha and Prof Dr Maria Aparecida Soares Ruas.}{}
+
+\cventry{2016--2017}{FAPESP Undergraduate Research Grant}{Transcendental Methods of algebraic/complex geometry in hyperbolic geometry}{University of São Paulo}{São Carlos}{Advised by Prof Alexandre Ananin.}{}
+
+\section{Prizes and Awards}
+\cventry{2019}{University of São Paulo}{Outstanding Academic Performance as Undergraduate student}{}{}{}
+\cventry{2017}{Brazilian Mathematics Olympiad (undergraduate level)}{Honorable mention}{}{}{}
+\cventry{2015}{Brazilian Chemistry Olympiad (high school level)}{Bronze Medal}{}{}{}
+\cventry{2015}{São Paulo's Chemistry Olympiad (high school level)}{Silver Medal}{}{}{}
+\cventry{2015}{Brazilian Physics Olympiad (high school level)}{Bronze Medal}{}{}{}
+
+\section{Teaching and Organizational Experience}
+
+\cventry{Aug 2023-Feb 2024}{Inst. of Pure and Appl. Math.}{Coorganizer of the IMPA Student Seminar}{Rio de Janeiro}{}{}
+\cventry{Aug-Dez, 2023}{Inst. of Pure and Appl. Math.}{Teaching Assistant for Riemann Surfaces}{Rio de Janeiro}{}{}
+\cventry{Jan - Mar, 2022}{Inst. of Pure and Appl. Math.}{Teaching Assistant for Differential Topology}{Rio de Janeiro}{}{}
+\cventry{2017--2019}{Voluntary teacher at a preparatory course for High School Students}{High School teaching}{São Carlos}{}{}
+\cventry{Mar, 2017}{Instructor for short course on Category Theory}{Free course on Category Theory}{São Carlos}{University of São Paulo}{}
+%\section{Summer Courses at Graduate level}
+%
+%\cventry{2017}{Functions of one complex variables}{University of São Paulo}{São Carlos}{Grade A}{}
+%\cventry{2017}{Markov Processes at Continous Time and Particle Systems, short course}{University of São Paulo}{São Carlos}{}{}
+%\cventry{2018}{Differential Topology}{Institute of Pure and Applied Mathematics}{Rio de Janeiro}{Grade A}{}
+%\cventry{2018}{Topics in Elliptic Curves and Modular Forms}{Institute of Pure and Applied Mathematics}{Rio de Janeiro}{Grade A-}{}
+%
+%\section{Other relevant Graduate level Courses}
+%%\cventry{}{Topology}{Leibniz Universitat Hannover}{Hannover}{Grade A}{}
+%\cventry{}{Algebraic Geometry}{Leibniz Universitat Hannover}{Hannover}{Grade A}{}
+%\cventry{}{Homological Algebra}{Leibniz Universitat Hannover}{Hannover}{Grade A}{}
+%\cventry{}{Functional Analysis}{Leibniz Universitat Hannover}{Hannover}{Grade A}{}
+%\cventry{}{Galois Theory}{University of São Paulo}{São Carlos}{Grade A}{}
+%\cventry{}{Measure Theory}{University of São Paulo}{São Carlos}{Grade A}{}
+%\cventry{}{Algebraic Topology}{University of São Paulo}{São Carlos}{Grade A}{}
+
+\section{Selected Conferences}
+%\cventry{2017}{Institute of Pure and Applied Mathematics}{Brazilian Mathematics Coloquium}{Rio de Janeiro}{}{}
+
+%\cventry{2018}{University of São Paulo}{21st Undergraduate Symposium of Mathematics}{São Carlos}{}{}
+
+%\cventry{2019}{University of São Paulo}{University of São Paulo's International Scientific Initiation Symposium}{São Carlos}{}{}
+%\cventry{2021}{Institute of Pure and Applied Mathematics}{Brazilian Mathematics Colloquium (Online)}{Rio de Janeiro}{}{}
+\cventry{2024}{International Centre for Mathematical Sciences}{\href{https://icms.bg/ckga/theory-of-atoms/}{Theory of Atoms, Educational Workshop}}{Sofia}{Speaker}{}
+\cventry{2024}{Centre International of Mathematical Meetings}{\href{https://conferences.cirm-math.fr/3129.html}{Motivic homotopy in interaction}}{Marseille}{Speaker}{}
+\cventry{2023}{University of Heidelberg}{\href{https://web.mathi.uni-heidelberg.de/cymod23}{Hodge theory, Mirror Symmetry, and Physics of Calabi-Yau Moduli}}
+{Heidelberg}{Speaker}{}
+%\cventry{2023}{Aachen University}{\href{https://www.math.rwth-aachen.de/~Gabriele.Nebe/SummerSchool2023/index.html}{Quadratic Forms and Applications in Algebraic Geometry}}{Aachen}{}{}
+\cventry{2023}{University of Sheffield}{\href{https://agmp.sites.sheffield.ac.uk/conferences/sieg-2023/}{Structures in Enumerative Geometry}}{Sheffield}{Participant}{}
+\cventry{2022}{Paris-Saclay University}{\href{https://sites.google.com/view/gaelxxix/home}{Géométrie Algébrique en Liberté XXIX}}{Paris}{Poster Presenter}{}
+%\cventry{2018}{University of Heidelberg}{\href{https://www.heidelberg-laureate-forum.org/forum/past-hlfs/6th-hlf-2018.html}{6th Heildelberg Laureate Forum}}{Heildelberg}{}{}
+%\cventry{2018}{University of São Paulo}{\href{http://www.worksing.icmc.usp.br/main_site/2018/}{15th International Workshop on Real and Complex Singularities}}{São Carlos}{}{}
+\cventry{2018}{Autonomous National University of Mexico}{\href{https://www.matcuer.unam.mx/singlipschitz/index.html}{International School on Singularities and Lipschitz Geometry}}{Cuernavaca}{Participant}{}
+%\section{Participation in seminars}
+%
+%\cventry{2016--2017}{University of São Paulo}{Kindergarten undergraduate seminar}{}{}{Seminar about advanced themes organized by professors Alexandre Ananin and Carlos Grossi for their students.}
+%
+%\cventry{2018--2018}{University of São Paulo}{Introduction to Algebraic Topology.}{}{}{Seminar organized by students and Prof Dr Leandro Aurichi. We followed Massey's \textit{A Basic Course in Algebraic Topology}.}
+%
+%\cventry{2018--2019}{Leibniz Universität Hannover}{Oberseminar Algebraic Geometry}{}{}{Research seminar organized by the Algebraic Geometry group at Leibniz University.}
+%
+%\cventry{2019}{University of São Paulo}{Characteristic Classes and Intersection Homology}{}{}{Seminar organized by Prof Dr Nivaldo Grulha and his students.}
+%
+%\cventry{2020--2021}{Institute of Pure and Applied Mathematics}{Geometry, Arithmetic and Differential Equations of Periods}{}{}{Virtual research seminar organized by Hossein Movasati, Younes Nikeledan and Thiago Fonseca}
+
+\section{Lectures and Posters}
+
+%\cventry{2016}{Lecture at Kindergarten seminar}{The Banach-Tarski Paradox}{University of Sao Paulo}{São Carlos}{}
+%\cventry{2017}{Poster at Brazilian Mathematics Coloquium}{A simple proof for the Banach-Tarski Paradox in $\Bbb R^3$}{Institute of Pure and Applied Mathematics}{Rio de Janeiro}{}
+
+%\cventry{2018}{Lecture at Introduction to Algebraic Topology Seminar}{The Van-Kampen Theorem}{University of São Paulo}{São Carlos}{}
+\cventry{2024}{Lecture at Theory of Atoms, Educational Workshop}{Modularity of open Gromov-Witten invariants for the quintic threefold}{Intern. Centre for Math. Sciences}{Sofia}{}{}
+\cventry{2024}{Lecture at Motivic Homotopy in Interaction}{Refinements of Donaldson-Thomas Invariants}{Centre Intern. of Math. Meetings}{Marseille}{}
+\cventry{2024}{Lecture at the LAGARTOS Seminar}{Lines on hypersurfaces beyond real and complex counts}{LAGARTOS}{Online}{}{}
+\cventry{2023}{Lecture at the conference Hodge theory, Mirror Symmetry, and Physics of Calabi-Yau Moduli }{\href{https://www.youtube.com/watch?v=Xk0SPlsvtOM&list=PL57PsbjMibmQ37JSKzyxqvmIhyAfF1iFs&index=22}{Arithmetic and motivic refinements of degree zero DT invariants of $\mathbb A^3$}}{University of Heidelberg}{Heidelberg}{}
+\cventry{2022}{Online lecture at the GADEPs Seminar}{Atyiah-Bott formula and Refined Enumerative Geometry}{Inst. of Pure and Appl. Math.}{Rio de Janeiro}{}
+\cventry{2022}{Online lecture given at the \href{https://kasprzyk.work/seminars/ag.html}{Online Algebraic Geometry Seminar}}{\href{https://www.youtube.com/watch?v=BH7glr2aKnw}{Gauss–Manin Connection in Disguise and Mirror Symmetry}}{Nottingham University}{Nottingham}{}
+\cventry{2022}{Poster at the Geométrie Algébrique en Liberté conference}{Gauss-Manin Connection in Disguise: How to generalize modular forms}{Paris-Saclay University}{Paris}{}
+\cventry{2021}{Online lecture given at the Masters Level Geometry Seminar by invitation}{The Fukaya Category and Kontsevich's HMS conjecture}{University of Campinas}{Campinas}{}{}
+\cventry{2019}{Poster at University of São Paulo's International Scientific Initiation Symposium}{Bouquet Decomposition for Determinantal Milnor Fibers}{University of São Paulo}{São Carlos}{}{}
+\cventry{2018}{Talk at 21st Undergraduate Symposium of Mathematics}{Ultrametric Spaces and the P\l oski Theorem for plane curves}{University of São Paulo}{São Carlos}{}{}
+\section{Publications and Preprints}
+\begin{enumerate}
+    \item F. Espreafico, S. McKean and S. Pauli, \textbf{Quadratic Segre Indices}, 2025 
+    \begin{itemize}
+    \item \href{http://arxiv.org/abs/2506.01547}{arXiv:2506.01547}
+    
+    \end{itemize}
+	\item F. Espreafico and J. Walcher, \textbf{On Motivic and Arithmetic Refinements of Donaldson-Thomas Invariants}, 2023
+	\begin{itemize}
+		\item \href{http://arxiv.org/abs/2307.03655}{arXiv:2307.03655}
+        \item Published at \textit{Communications in Number Theory and Physics vol. 17 no. 1}.
+	\end{itemize}
+	\item F. Espreafico, \textbf{Gauss-Manin Connection in Disguise: Open Gromov-Witten Invariants}, 2022
+	\begin{itemize}
+		\item \href{http://arxiv.org/abs/2205.08302}{arXiv:2205.08302}
+        \item Submitted to \textit{Communications in Mathematical Physics}
+	\end{itemize}
+\end{enumerate}
+
+\section{Languages}
+\cvitemwithcomment{Portuguese}{Native}{}
+\cvitemwithcomment{English}{Fluent}{}
+\cvitemwithcomment{German}{Intermediate}{}
+%\cvitemwithcomment{Spanish}{Intermediate}{}
+\cvitemwithcomment{French}{Intermediate}{}
+\section{References}
+\begin{cvcolumns}
+\cvcolumn{}{\textbf{Hossein Movasati}\\ Inst. Pure and Appl. Mathematics \\ hossein@impa.br}
+\cvcolumn{}{Penka Georgieva \\ Sorbonne University \\ penka.georgieva@imj-prg.fr}
+
+ \cvcolumn{}{Sabrina Pauli \\ TU Darmstadt   \\ pauli@mathematik.tu-darmstadt.de}
+   
+\end{cvcolumns}
+\begin{cvcolumns}
+  \cvcolumn{}{\textbf{Johannes Walcher}\\ University of Heidelberg \\ walcher@uni-heidelberg.de}
+  \cvcolumn{}{Vinicius G. B. Ramos\\ Inst. Pure and Appl. Mathematics \\ vgbramos@impa.br}
+    \cvcolumn{}{Nivaldo G. Grulha Junior\\ University of Sao Paulo \\ njunior@icmc.usp.br}
+\end{cvcolumns}
+\flushright*PhD advisors in boldface
+%\renewcommand{\refname}{Articles and Preprints}
+%\nocite{*}
+%\bibliographystyle{apalike}
+%\bibliography{MyPapers.bib}                        % 'publications' is the name of a BibTeX file
+
+%Publications from a BibTeX file using the multibib package
+
+                
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
