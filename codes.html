@@ -35,11 +35,11 @@
       </p>
       
       <p class="text-base leading-relaxed mb-3">
-        All computations were done in <strong>Mathematica</strong> (tested with version 14.3). To run a notebook, download it together with its <code>BPSc</code> file into the same folder and choose <em>Evaluation &gt; Evaluate Notebook</em>. The last cell is an example; <code>RealGVUpTo[chiMax, dmax]</code> gives the invariants of genus g &le; chiMax + 1 and degree d &le; dmax. For the quintic at &chi; = 5 and the bicubic at &chi; = 9 the boundary conditions leave one coefficient free, so the notebooks take n<sup>ℝ</sup><sub>6,5</sub> or n<sup>ℝ</sup><sub>10,9</sub> as input (<code>BPSr[6, 5] = 2</code> or <code>BPSr[10, 9] = 3</code>, or the negative values).
+        All computations were done in <strong>Mathematica</strong> (tested with version 14.3). Note that we need the complex GV invariants as input. That was taken from A. Klemm's data page. In order to compute degree d real invariants, we need degree d/2 complex invariants.
+        
+        The last cell is an example; <code>RealGVUpTo[chiMax, dmax]</code> gives the invariants of genus g &le; chiMax + 1 and degree d &le; dmax. For the quintic at &chi; = 5 and the bicubic at &chi; = 9 the boundary conditions leave one coefficient free, so the notebooks take n<sup>ℝ</sup><sub>6,5</sub> or n<sup>ℝ</sup><sub>10,9</sub> as input (<code>BPSr[6, 5] = 2</code> or <code>BPSr[10, 9] = 3</code>, or the negative values).
       </p>
-      <p class="text-base leading-relaxed mb-3">
-        The tables of the paper (d &le; 30) take about 10 minutes for the quintic (<code>RealGVUpTo[7, 30]</code>) and about 9 hours and 7 GB of memory for the bicubic (<code>RealGVUpTo[11, 30]</code>).
-      </p>
+      
     </section>
 
     <!-- Quintic -->
